@@ -1,0 +1,125 @@
+h1{
+    font-size: 100px;
+    align-content: center;
+    text-align: center;
+    width: auto; 
+    height: 20vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.719);
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    background-color: black;
+}
+#div0{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(img/dragoes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#div1{
+    color: black;
+    display: flex;
+    size: 10vh;
+}
+#div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    width: auto;
+    margin: 1vw;
+}
+#div21,#div22{
+    display: flex;
+    justify-content: space-around;
+    gap: 10vw;
+}
+.imgd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d{
+    width: 150px;
+    height: 150px;
+}
+.imgt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.t{
+    text-align: center;
+}
+.b{
+    display: flex;
+    width: 170px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background-image: url(img/papel.png);
+    background-position: center;
+    border-radius: 1vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 280px;
+    background-image: url(img/papel.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#div3{
+    background-color: rgba(0, 0, 0, 0.719);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.obg{
+    font-size: larger;
+    color: white;
+    margin: 10px;
+}
+@media (max-width: 720px) {
+    h1{
+        font-size: 140px;
+    }
+    #div2{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vh;
+    }
+    #div21,#div22{
+        height: 35vh;
+        gap: 2vh;
+    }
+    .box{
+        width: 330px;
+        height: 490px;
+    }
+    .d{
+        width: 300px;
+        height: 300px;
+    }
+    .b{
+        width: 320px;
+        height: 80px;
+        font-size: 65px;
+        text-justify: auto;
+    }
+    .imgt{
+        font-size: 65px;
+    }
+    .obg{
+        font-size: 40px;
+    }
+}
